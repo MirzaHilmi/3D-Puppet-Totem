@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "3D Attachable! Mmaara Test",
+        "name": "Model Geometry Test v3",
+        "uuid": "38e70034-b830-4061-85f8-a8b9ee9fee61",
+        "version": [0,0,2],
+        "min_engine_version": [1,16,100]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "4d041d93-1c4b-4f88-b61b-17bc016617c5",
+            "version": [0,0,3]
+        }
+    ]
+}
