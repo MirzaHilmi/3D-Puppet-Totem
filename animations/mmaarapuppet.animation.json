@@ -1,36 +1,19 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.totem.hold_first_person": {
-			"loop": true,
-			"bones": {
-				"main": {
-					"rotation": [41.63664, -34.15936, 189.52095],
-					"position": [-1, 26.8, 6],
-					"scale": 1
-				}
-			}
+		"animation.puppet.mainhand_first_person": {
+			"loop": true
+		},
+		"animation.puppet.offhand_first_person": {
+			"loop": true
 		},
 		"animation.puppet.mainhand_third_person": {
 			"loop": true,
 			"bones": {
 				"rightTotem": {
-					"rotation": [18, -42, -27],
-					"position": [0, 21, -3],
+					"rotation": [-30, -45, 0],
+					"position": [0.5, -6, -4],
 					"scale": 0.5
-				}
-			}
-		},
-		"animation.totem.offhand_first_person": {
-			"loop": true,
-			"bones": {
-				"totemalpha": {
-					"rotation": [-204.26911, -22.32323, -290.73154],
-					"position": [21, -5, -22]
-				},
-				"main": {
-					"rotation": [-45.6432, -39.73032, 160.65541],
-					"position": [-17.7, -3.5, 11]
 				}
 			}
 		},
@@ -38,8 +21,8 @@
 			"loop": true,
 			"bones": {
 				"leftTotem": {
-					"rotation": [18, 42, 27],
-					"position": [0, 21, -3],
+					"rotation": [-30, 45, 0],
+					"position": [-0.5, -6, -4],
 					"scale": 0.5
 				}
 			}

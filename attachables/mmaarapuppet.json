@@ -15,9 +15,9 @@
 				"default": "geometry.puppet"
 			},
 			"animations": {
-				"hold_first_person": "animation.totem.hold_first_person",
+				"hold_first_person": "animation.puppet.mainhand_first_person",
 				"hold_third_person": "animation.puppet.mainhand_third_person",
-				"offhand_first_person": "animation.totem.offhand_first_person",
+				"offhand_first_person": "animation.puppet.offhand_first_person",
 				"offhand_third_person": "animation.puppet.offhand_third_person"
 			},
 			"scripts": {
