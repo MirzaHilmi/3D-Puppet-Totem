@@ -11,13 +11,13 @@
 				}
 			}
 		},
-		"animation.totem.hold_third_person": {
+		"animation.puppet.mainhand_third_person": {
 			"loop": true,
 			"bones": {
-				"main": {
-					"rotation": [97.17563, -8.6643, -153.77818],
-					"position": [-0.5, 23, 1],
-					"scale": 0.3
+				"rightTotem": {
+					"rotation": [18, -42, -27],
+					"position": [0, 21, -3],
+					"scale": 0.5
 				}
 			}
 		},
@@ -34,12 +34,13 @@
 				}
 			}
 		},
-		"animation.totem.offhand_third_person": {
+		"animation.puppet.offhand_third_person": {
 			"loop": true,
 			"bones": {
-				"main": {
-					"rotation": [-7.5, 10, -57.5],
-					"position": [-2, -1, 0]
+				"leftTotem": {
+					"rotation": [18, 42, 27],
+					"position": [0, 21, -3],
+					"scale": 0.5
 				}
 			}
 		}
