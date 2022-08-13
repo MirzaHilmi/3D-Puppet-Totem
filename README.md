@@ -1,3 +1,3 @@
 # 3D-Puppet-Totem
 
-Custom model/geometry totem in held through attachables for Minecraft Bedrock Edition.
+Custom model/geometry totem on puppet form in held through attachables for Minecraft Bedrock Edition.
