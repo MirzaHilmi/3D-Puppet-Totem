@@ -2,28 +2,34 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.puppet.mainhand_first_person": {
-			"loop": true
-		},
-		"animation.puppet.offhand_first_person": {
-			"loop": true
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": ["c.is_first_person ? 85.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0"],
+					"position": ["c.is_first_person ? 7.0 : 0.0", "c.is_first_person ? 6.0 : 0.0", "c.is_first_person ? 15.0 : 0.0"],
+					"scale": 0.7
+				}
+			}
 		},
 		"animation.puppet.mainhand_third_person": {
 			"loop": true,
 			"bones": {
-				"rightTotem": {
-					"rotation": [-30, -45, 0],
-					"position": [0.5, -6, -4],
+				"rightItem": {
+					"rotation": [-1.2, -32.8, -11.9],
+					"position": [1, 17, -4],
 					"scale": 0.5
 				}
 			}
 		},
+		"animation.puppet.offhand_first_person": {
+			"loop": true
+		},
 		"animation.puppet.offhand_third_person": {
 			"loop": true,
 			"bones": {
-				"leftTotem": {
-					"rotation": [-30, 45, 0],
-					"position": [-0.5, -6, -4],
-					"scale": 0.5
+				"rightItem": {
+					"rotation": ["-1.2 * 2", "32.8 * 2", "11.9 * 2"],
+					"position": [-1, 0, 0]
 				}
 			}
 		}
