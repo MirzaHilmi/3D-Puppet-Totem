@@ -22,7 +22,13 @@
 			}
 		},
 		"animation.puppet.offhand_first_person": {
-			"loop": true
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": ["95 + variable.is_using_vr * 7.5", 45, "240 + variable.is_using_vr * -2.5"],
+					"position": [-13.5, -10, 12]
+				}
+			}
 		},
 		"animation.puppet.offhand_third_person": {
 			"loop": true,
