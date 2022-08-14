@@ -5,9 +5,9 @@
 			"loop": true,
 			"bones": {
 				"rightItem": {
-					"rotation": ["c.is_first_person ? 85.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0"],
-					"position": ["c.is_first_person ? 7.0 : 0.0", "c.is_first_person ? 6.0 : 0.0", "c.is_first_person ? 15.0 : 0.0"],
-					"scale": 0.7
+					"rotation": [42, -33, -170],
+					"position": [-4, 17, 0.5],
+					"scale": 0.6
 				}
 			}
 		},
@@ -25,8 +25,8 @@
 			"loop": true,
 			"bones": {
 				"rightItem": {
-					"rotation": ["95 + variable.is_using_vr * 7.5", 45, "240 + variable.is_using_vr * -2.5"],
-					"position": [-13.5, -10, 12]
+					"rotation": [-27.45141, -33.34156, 124.2141],
+					"position": [-17.7, 6.5, 16]
 				}
 			}
 		},
